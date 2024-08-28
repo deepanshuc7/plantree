@@ -1,4 +1,4 @@
-console.log("hello");
+console.log(("hello"))
 
 //// function for searchbar using jquerry
 
@@ -38,3 +38,13 @@ function alertSubmit() {
 //       x.style.display = "none";
 //     }
 //   }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuIcon = document.getElementById("menu-bar");
+  const navbar = document.querySelector(".navbar");
+
+  // Toggle the active class to show/hide the menu
+  menuIcon.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+  });
+});
