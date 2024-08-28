@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Plantree | Buy plants online</title>
+</head>
+<body>
+
+ <!-- //// navbar ///-->
+    <header>
+
+        <div class="header-container">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="index.html" class="logo"><img src="assets/logo.svg" alt=""></a>
+            <nav class="navbar ">
+                <div class="dropdown">
+                    <a href="#plants" class="dropbtn">Plants</a>
+                    <div class="dropdown-content">
+                    <a href="#">Indoor</a>
+                    <a href="#">Outdoor</a>
+                    <a href="#">Pet Friendly</a>
+                    <a href="#">Almost Unkillable</a>
+                    <a href="#">Air Purifying</a>
+                    <a href="#">Seeds & Buds</a>
+                    <a href="#">Bonsai</a>
+                    <a href="#">Cactus</a>
+                    <a href="#">Flowering</a>
+                    <a href="#">Green</a>
+                    <a href="#">Orchids</a>
+                    <a href="#">Hanging</a>
+                  </div>
+                </div>
+                <a href="#accessories">Accessories</a>
+                <a href="#blog">Blog</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <a  id="searchIcon" class="fa fa-magnifying-glass" onclick="myFunction()"></a>
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-user"></a>
+                <a href="#" class="fa fa-cart-shopping"></a>
+            </div>
+        </div>
+
+        <div class="search"  id="searchBar">
+            <div class="form-control">
+                <input type="text" class="input" placeholder="search" />
+                <button class="btn">Search</button>
+              </div>
+             </div>
+
+       
+    
+    </header>
+    <!---//// main ////-->
+   
+<div class="contact-page">
+    <h2>Contact Us</h2>
+
+    <div class="container-mid">
+
+        <h3>Have a question?</h3>
+      
+        <form name="myForm" id="myForm" action="#" onsubmit="alertSubmit()" >
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required>
+      
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+      
+          
+      
+          <label for="subject">Your message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      <!--  end of contact form -->
+
+      <div class="flex">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10038.611249898815!2d4.4875885!3d51.0225626!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c0bb604e8e86f09!2sThomas%20More%20Mechelen%20-%20Campus%20Ham!5e0!3m2!1sen!2sbe!4v1673987475598!5m2!1sen!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="right">
+            <div class="contact-box">
+                <h4><i class="fa-solid fa-location-dot"></i> Address</h4>
+            <p>Raghenoplein 21 bis,<br> 2800 Mechelen</p>
+            </div>
+            <div class="contact-box">
+                <h4><i class="fa-solid fa-phone"></i> Phone</h4>
+            <p>+32 123 456 789<br> +32 987 654 321</p>
+            </div>
+            <div class="contact-box">
+                <h4><i class="fa-solid fa-envelope"></i> Email</h4>
+            <p>info@plantree.com</p>
+            </div>
+            
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- //// footer ////-->
+
+    <footer>
+
+        <img src="assets/logo.svg" alt="">
+
+        <div class="footer-grid">
+   
+            <section class="footer-1">
+              <h4>Customer Support </h4>
+                <p>Do you have a questions?</p>
+                <p>Contact our customer service for more information or 
+
+                    contact us by email at:</p>
+                <a href="mailto: #">info@plantree.com</a>
+
+            </section>
+    
+           <section class="footer-2">
+              <h4>Sitemap </h4>
+                <p><a href="">Plants</a></p>
+                <p><a href="">Accessories</a></p>
+                <p><a href="">Blog</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="">Contact</a></p>
+            </section>
+    
+           <section class="footer-3">
+             <h4>Follow Us</h4>
+              <a href="" class=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              
+           </section>
+    
+           
+       </div>
+
+    </footer>
+
+    <button id="button-top" onclick="topFunction()" title="go to top">Top</button>
+   
+
+    <script src="./topButton.js"></script>
+
+   
+</body>
+</html>
