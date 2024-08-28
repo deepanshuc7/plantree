@@ -126,30 +126,25 @@ li {
 }
 
 .hero h1{
-    position: absolute;
-    font-weight: 600;
-    top: 40%;
-    left: 10%;
+   
+  font-weight: 600;
     font-size: 4rem;
     letter-spacing: 4px;
-
+    padding: 2rem;
+    padding-top: 20rem;
 }
 
 .hero h2{
     color: #989898;
-    position: absolute;
+   
     font-weight: 400;
-    top: 70%;
-    left: 10%;
+    padding: 2rem;
     font-size: 2rem;
     letter-spacing: 4px;
 }
 
 .hero-button{
-    position: absolute;
-    top: 90%;
-    left: 10%;
-    background-color: #162719;
+  background-color: #162719;
   border: none;
   color: white;
   padding: 20px;
@@ -157,7 +152,7 @@ li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 20px;
   border-radius: 8px;
 }
 
@@ -185,6 +180,9 @@ li {
     justify-content: space-evenly;
     margin-left: 2rem;
     margin-right: 2rem;
+    overflow: scroll;
+    overflow-y: hidden; 
+  overflow-x: hidden; 
 }
 
 .box{
@@ -794,3 +792,5 @@ tr:nth-child(even) {
 .userName{
   font-weight: 600;
 }
+
+
